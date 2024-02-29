@@ -168,7 +168,7 @@ jobs:
         run: cs2pr ./phpcs-report.xml
 
       - name: Download the PHPCS phar
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: phpcs-phar
 
